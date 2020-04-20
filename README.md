@@ -27,6 +27,3 @@ The dataset follows a format of 1 row per location and date. The other columns r
 
 ## About Rearc
 Rearc is a cloud, software and services company. We believe that empowering engineers drives innovation. Cloud-native architectures, modern software and data practices, and the ability to safely experiment can enable engineers to realize their full potential. We have partnered with several enterprises and startups to help them achieve agility. Our approach is simple — empower engineers with the best tools possible to make an impact within their industry.
-
-## Refund Policy  
-Refunds Not Applicable
