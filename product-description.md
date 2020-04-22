@@ -12,9 +12,9 @@ The dataset follows a format of 1 row per location and date. The other columns r
 `iso_code, location, date, total_cases, new_cases, total_deaths, new_deaths, total_cases_per_million, new_cases_per_million, total_deaths_per_million, new_deaths_per_million, total_tests, new_tests, total_tests_per_thousand, new_tests_per_thousand, tests_units`
 
 ## More Information:
-- Source: [Data on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)
-- Homepage: [Our World in Data](https://ourworldindata.org/coronavirus)
-- [Dataset License](https://creativecommons.org/licenses/by/4.0/)
+- [Source: Data on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)
+- [Homepage: Our World in Data](https://ourworldindata.org/coronavirus)
+- [Terms of Use](https://creativecommons.org/licenses/by/4.0/)
 - Frequency: Daily    
 
 ## Contact/Support Information
