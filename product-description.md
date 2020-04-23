@@ -12,13 +12,13 @@ The dataset follows a format of 1 row per location and date. The other columns r
 `iso_code, location, date, total_cases, new_cases, total_deaths, new_deaths, total_cases_per_million, new_cases_per_million, total_deaths_per_million, new_deaths_per_million, total_tests, new_tests, total_tests_per_thousand, new_tests_per_thousand, tests_units`
 
 ## More Information:
-- Source: [Data on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)
-- Home Page: [Our World in Data](https://ourworldindata.org/coronavirus)
-- [Dataset License](https://creativecommons.org/licenses/by/4.0/)
+- [Source: Data on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)
+- [Homepage: Our World in Data](https://ourworldindata.org/coronavirus)
+- [Terms of Use](https://creativecommons.org/licenses/by/4.0/)
 - Frequency: Daily    
 
 ## Contact/Support Information
-- If you find any issues or have enhancements with this product, open up a GitHub [issue](https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
+- If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue](https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
 - If you are interested in any other open datasets, please create a request on our project board [here](https://github.com/rearc-data/covid-datasets-aws-data-exchange/projects/1).
 - If you have questions about the source data, please contact "Our World in Data".
 - If you have any other questions or feedback, send us an email at data@rearc.io.
