@@ -1,7 +1,7 @@
 # COVID-19 - World Confirmed Cases, Deaths, and Testing
 
 ## Main Description
-This dataset is a collection of the COVID-19 data maintained by "Our World in Data". It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic.  
+This dataset is a collection of the COVID-19 data maintained by "Our World in Data". It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic. 
 
 #### Data Sources  
 - Confirmed cases and deaths: This data comes from the European Centre for Disease Prevention and Control (ECDC)
@@ -19,7 +19,7 @@ The dataset follows a format of 1 row per location and date. The other columns r
 
 ## Contact/Support Information
 - If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue](https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
-- If you are interested in any other open datasets, please create a request on our project board [here](https://github.com/rearc-data/covid-datasets-aws-data-exchange/projects/1).
+- If you are looking for specific open datasets currently not available on ADX, please submit a request on our project board [here](https://github.com/rearc-data/covid-datasets-aws-data-exchange/projects/1).
 - If you have questions about the source data, please contact "Our World in Data".
 - If you have any other questions or feedback, send us an email at data@rearc.io.
 
