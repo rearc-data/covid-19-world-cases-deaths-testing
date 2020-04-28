@@ -1,9 +1,13 @@
+<a href="https://www.rearc.io/data/">
+    <img src="./rearc_logo_rgb.png" alt="Rearc Logo" title="Rearc Logo" height="52" />
+</a>
+
 # COVID-19 - World Confirmed Cases, Deaths, and Testing
 
-## Main Description
-This dataset is a collection of the COVID-19 data maintained by "Our World in Data". It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic.
+You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-3b32sjummof5s](https://aws.amazon.com/marketplace/pp/prodview-3b32sjummof5s). 
 
-If you are interested in subscribing to this product on AWS Data Exchange, please click [here](https://aws.amazon.com/marketplace/pp/prodview-3b32sjummof5s?qid=1587353258341&sr=0-1&ref_=srh_res_product_title#overview).
+## Product Description
+This dataset is a collection of the COVID-19 data maintained by "Our World in Data". It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic.
 
 #### Data Sources  
 - Confirmed cases and deaths: This data comes from the European Centre for Disease Prevention and Control (ECDC)
@@ -13,13 +17,14 @@ The dataset follows a format of 1 row per location and date. The other columns r
 
 `iso_code, location, date, total_cases, new_cases, total_deaths, new_deaths, total_cases_per_million, new_cases_per_million, total_deaths_per_million, new_deaths_per_million, total_tests, new_tests, total_tests_per_thousand, new_tests_per_thousand, tests_units`
 
-## More Information:
+## More Information
 - [Source: Data on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)
 - [Homepage: Our World in Data](https://ourworldindata.org/coronavirus)
 - [Terms of Use](https://creativecommons.org/licenses/by/4.0/)
-- Frequency: Daily    
+- Frequency: Daily
+- Format: CSV
 
-## Contact/Support Information
+## Contact Details
 - If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue](https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
 - If you are looking for specific open datasets currently not available on ADX, please submit a request on our project board [here](https://github.com/rearc-data/covid-datasets-aws-data-exchange/projects/1).
 - If you have questions about the source data, please contact "Our World in Data".
