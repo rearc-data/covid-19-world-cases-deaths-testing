@@ -1,6 +1,6 @@
 # COVID-19 - World Confirmed Cases, Deaths, and Testing
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets is avaiable at [https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing](https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing).
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing](https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing).
 
 ## Product Description
 This dataset is a collection of the COVID-19 data maintained by "Our World in Data". It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic. 
