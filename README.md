@@ -6,7 +6,7 @@
 
 You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-3b32sjummof5s](https://aws.amazon.com/marketplace/pp/prodview-3b32sjummof5s). 
 
-## Product Description
+## Main Overview
 This dataset is a collection of the COVID-19 data maintained by "Our World in Data". It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic.
 
 #### Data Sources  
@@ -15,14 +15,14 @@ This dataset is a collection of the COVID-19 data maintained by "Our World in Da
 
 The dataset follows a format of 1 row per location and date. The other columns represent all of the main variables related to confirmed cases, deaths, and testing. The columns are:  
 
-`iso_code, location, date, total_cases, new_cases, total_deaths, new_deaths, total_cases_per_million, new_cases_per_million, total_deaths_per_million, new_deaths_per_million, total_tests, new_tests, total_tests_per_thousand, new_tests_per_thousand, tests_units`
+`iso_code,location,date,total_cases,new_cases,total_deaths,new_deaths,total_cases_per_million,new_cases_per_million,total_deaths_per_million,new_deaths_per_million,total_tests,new_tests,total_tests_per_thousand,new_tests_per_thousand,tests_units,population,population_density,median_age,aged_65_older,aged_70_older,gdp_per_capita,extreme_poverty,cvd_death_rate,diabetes_prevalence,female_smokers,male_smokers,handwashing_facilities,hospital_beds_per_100k`
 
 ## More Information
 - [Source: Data on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)
 - [Homepage: Our World in Data](https://ourworldindata.org/coronavirus)
 - [Terms of Use](https://creativecommons.org/licenses/by/4.0/)
 - Frequency: Daily
-- Format: CSV
+- Formats: CSV, XLSX
 
 ## Contact Details
 - If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue](https://github.com/rearc/aws-data-exchange-covid-19-world-cases-deaths-testing/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
