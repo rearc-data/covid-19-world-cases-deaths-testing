@@ -7,8 +7,7 @@
 You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-3b32sjummof5s](https://aws.amazon.com/marketplace/pp/prodview-3b32sjummof5s). 
 
 ## Main Overview
-This dataset is a collection of the COVID-19 data maintained by "Our World in Data". It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic.
-
+This dataset is a collection of the COVID-19 data maintained by "Our World in Data" which collects it from John Hopkins University. It is updated daily and includes data on confirmed cases, deaths, and testing. It is an up-to-date data on confirmed cases, deaths, and testing, throughout the duration of the COVID-19 pandemic.
 #### Data Sources  
 - Confirmed cases and deaths: This data comes from the European Centre for Disease Prevention and Control (ECDC)
 - Testing for COVID-19: This data is collected by the "Our World in Data" team from official reports
@@ -19,6 +18,7 @@ The dataset follows a format of 1 row per location and date. The other columns r
 
 ## More Information
 - [Source: Data on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)
+- [Original Data Source: John Hopkins University](https://github.com/CSSEGISandData/COVID-19)
 - [Homepage: Our World in Data](https://ourworldindata.org/coronavirus)
 - [Terms of Use](https://creativecommons.org/licenses/by/4.0/)
 - Frequency: Daily
