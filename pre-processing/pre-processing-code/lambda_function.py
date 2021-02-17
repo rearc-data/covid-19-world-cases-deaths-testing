@@ -22,8 +22,7 @@ data_set_arn = os.environ['DATA_SET_ARN']
 data_set_id = data_set_arn.split("/", 1)[1]
 product_id = os.environ['PRODUCT_ID']
 data_set_name = os.environ['DATA_SET_NAME']
-new_filename = data_set_name
-new_s3_key = data_set_name + '/dataset/' + new_filename
+new_s3_key = data_set_name + '/dataset/'
 cfn_template = data_set_name + '/automation/cloudformation.yaml'
 post_processing_code = data_set_name + '/automation/post-processing-code.zip'
 
@@ -71,9 +70,15 @@ def start_change_set(describe_entity_response, revision_arn):
 
 def lambda_handler(event, context):
 
-	asset_list = source_dataset()
+	asset_list = source_dataset(s3_bucket, new_s3_key)
 
-	if type(asset_list) == list and len(asset_list) > 0:
+	if type(asset_list) == list:
+		if len(asset_list) == 0:
+			print('No need for a revision, all datasets included with this product are up to date')
+			return {
+				'statusCode': 200,
+				'body': json.dumps('No need for a revision, all datasets included with this product are up to date')
+			}
 
 		create_revision_response = dataexchange.create_revision(DataSetId=data_set_id)
 		revision_id = create_revision_response['Id']
