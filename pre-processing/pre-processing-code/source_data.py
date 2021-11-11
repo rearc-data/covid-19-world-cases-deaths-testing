@@ -47,8 +47,7 @@ def source_dataset(s3_bucket, new_s3_key):
 
     # list of enpoints to be used to access data included with product
     data_endpoints = [
-        '.csv',
-        '.xlsx'
+        '.csv'
     ]
 
     # multithreading speed up accessing data, making lambda run quicker
